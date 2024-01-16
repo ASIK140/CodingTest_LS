@@ -114,5 +114,5 @@ let result=[]
 return result
 };
 
-const cafe=find_cafe("chicken");
+const cafe=find_cafe("hi");
 console.log(cafe);

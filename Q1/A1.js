@@ -13,7 +13,7 @@ const Details = [
   { Roll: 1, subjects: { math: 55, english: 75, chemistry: 76, computer: 94 } },
   { Roll: 4, subjects: { english: 12, chemistry: 85, computer: 68, math: 45 } },
   { Roll: 2, subjects: { math: 55, english: 56, computer: 48, chemistry: 12 } },
-  { Roll: 7, subjects: { math: 100, english: 100, computer: 100, chemistry: 100 }}
+  { Roll: 7, subjects: { math: 86, english: 100, computer: 70, chemistry: 60 }}
 ];
 // Calculate total mark
 const total_mark = (subjects) => {
