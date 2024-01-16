@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 4vmax 0;
+    flex-direction: column;
+    gap: 2vmax;
+    overflow-x: hidden;
+}
+.head h1{
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+    font-size: 4vmax;
+
+}
+.search{
+    height: 3vmax;
+    width: 50vmax;
+    border: 2px solid black;
+    padding-left: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.search input{
+   width: 45vmax;
+   height: 90%;
+   border: none;
+   outline: none;
+   font-size: 1.6vmax;
+   
+}
+.search button{
+    height: 100%;
+    border: none;
+    width: 4.6vmax;
+    background-color: black;
+    color: #ffff;
+    font-size: 1.3vmax;
+    cursor: pointer;
+}
+
+/* .cafe{
+    display: flex;
+    gap: 2vmax;
+    justify-content: space-between;
+    width: 50vmax;
+    flex-wrap: wrap; 
+}
+.box{
+    width: 100%;
+    border: 1px solid black;
+    padding: 1vmax;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.box:hover{
+    box-shadow: 0px 0px  10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.03);
+
+}
+.details span{
+    color: black;
+    font-weight: 700;
+}
+.box h3{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5vmax;
+    font-weight: 200;
+} */
+
+.cafe table{
+    width: 50vmax;
+}
+.cafe table,tr, th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+.cafe table th, td{
+    height: 2vmax;
+}
