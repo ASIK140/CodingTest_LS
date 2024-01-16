@@ -50,34 +50,6 @@ body{
     cursor: pointer;
 }
 
-/* .cafe{
-    display: flex;
-    gap: 2vmax;
-    justify-content: space-between;
-    width: 50vmax;
-    flex-wrap: wrap; 
-}
-.box{
-    width: 100%;
-    border: 1px solid black;
-    padding: 1vmax;
-    cursor: pointer;
-    transition: all 0.3s;
-}
-.box:hover{
-    box-shadow: 0px 0px  10px rgba(0, 0, 0, 0.3);
-    transform: scale(1.03);
-
-}
-.details span{
-    color: black;
-    font-weight: 700;
-}
-.box h3{
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 1.5vmax;
-    font-weight: 200;
-} */
 
 .cafe table{
     width: 50vmax;
